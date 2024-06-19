@@ -9,4 +9,4 @@ result.to_csv('ketqua.csv')
 result.to_excel('ketqua.xlsx')
 
 print(result)
-print(result["Toán"].value_counts())
+# print(result["Toán"].value_counts())
