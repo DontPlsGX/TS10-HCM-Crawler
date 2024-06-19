@@ -11,6 +11,7 @@ SBD from 9001 to 9438 and 90000 to 192007
 x = 2024
 
 Link work for each contestant's data as follow: https[://]s6.tuoitre.vn/api/diem-thi-lop-10.htm? keywords=SBD & year=x & sitename=tuoitre.vn (with no space in between)
+
 *remove the square bracket for working link
 
 # Response format:
