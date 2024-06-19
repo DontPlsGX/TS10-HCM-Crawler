@@ -8,35 +8,34 @@ SBD from 9001 to 9438 and 90000 to 192007
 x = 2024
 
 Link work for each contestant's data as follow: https[://]s6.tuoitre.vn/api/diem-thi-lop-10.htm? keywords=SBD & year=x & sitename=tuoitre.vn (with no space in between)
+*remove the square bracket for working link
 
 # Response format:
 ```
 "data": [
         {
-            "id": "120000",
-            "Id": "120000",
-            "TinhId": 12,
-            "NGAY_SINH": "12\/14\/2009",
+            "id": "XXX",
+            "Id": "XXX",
+            "TinhId": XX,
+            "NGAY_SINH": "dd\/mm\/yyyy",
             "file_name": "",
             "modified_date": "2024-06-19T08:21:27.861320",
-            "NAM": "2024",
+            "NAM": "202x",
             "KY_THI": "LOP10",
-            "SBD": "120000",
-            "HO_TEN": "Phan Qu\u1ed1c C\u01b0\u1eddng",
+            "SBD": "XXXXXX",
+            "HO_TEN": "Nguyen Van A",
             "TINH": "HCM",
-            "TOAN": 3.25,
-            "VAN": 4.25,
-            "NGOAI_NGU": 2,
-            "CHUYEN": -1,
-            "TONGDIEM": 9.5,
-            "SOBAODANH": "120000",
+            "TOAN": X.XX,
+            "VAN": X.XX,
+            "NGOAI_NGU": X.XX,
+            "CHUYEN": X or -1,
+            "TONGDIEM": X.XX,
+            "SOBAODANH": "XXX",
             "LI": "",
             "HOA": "",
             "SU": "",
             "DIA": "",
-            "NN": 2,
+            "NN": X,
             "GDCN": ""
         }
 ```
-
-*remove the square bracket for working link
