@@ -2,12 +2,12 @@
 Crawler for TS10-HCM entrance exam.
 To reuse, consider some following thing:
 
-Api Link: https://s6.tuoitre.vn/api/diem-thi-lop-10.htm
-Origin: https://tuoitre.vn
+Api Link: #https://s6.tuoitre.vn/api/diem-thi-lop-10.htm
+Origin: #https://tuoitre.vn
 SBD from 9001 to 9438 and 90000 to 192007
 x = 2024
 
-Link work for each contestant's data as follow: https://s6.tuoitre.vn/api/diem-thi-lop-10.htm? keywords=SBD & year=x & sitename=tuoitre.vn (with no space in between)
+Link work for each contestant's data as follow: #https://s6.tuoitre.vn/api/diem-thi-lop-10.htm? keywords=SBD & year=x & sitename=tuoitre.vn (with no space in between)
 
 Response format:
 ```
