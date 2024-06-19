@@ -2,6 +2,9 @@ import requests
 import csv
 from multiprocessing import cpu_count, Process
 
+# Api Link: https://s6.tuoitre.vn/api/diem-thi-lop-10.htm
+# Origin: https://tuoitre.vn
+# SBD from 9001 to 9438 and 90000 to 192007
 
 year = 2024
 
@@ -27,19 +30,21 @@ def crawl(start, stop, name):
     file.close()
 
 if __name__ == "__main__":
-    crawl(9001,9438,'ketqua5.csv')
-    # files = [f'ketqua{i}.csv' for i in range(1,5)] 
-    # p1 = Process(target=crawl,args=(90000,115501,files[0]))
-    # p2 = Process(target=crawl,args=(115502,141003,files[1]))
-    # p3 = Process(target=crawl,args=(141004, 166505,files[2]))
-    # p4 = Process(target=crawl,args=(166506,192007,files[3]))
+    files = [f'ketqua{i}.csv' for i in range(1,5)]
+    p1 = Process(target=crawl,args=(90000,115501,files[0]))
+    p2 = Process(target=crawl,args=(115502,141003,files[1]))
+    p3 = Process(target=crawl,args=(141004, 166505,files[2]))
+    p4 = Process(target=crawl,args=(166506,192007,files[3]))
+    p5 = Process(target=crawl,args=(9001,9438,files[4]))
 
-    # p1.start()
-    # p2.start()
-    # p3.start()
-    # p4.start()
+    p1.start()
+    p2.start()
+    p3.start()
+    p4.start()
+    p5.start()
 
-    # p1.join()
-    # p2.join()
-    # p3.join()
-    # p4.join()
+    p1.join()
+    p2.join()
+    p3.join()
+    p4.join()
+    p5.join()
